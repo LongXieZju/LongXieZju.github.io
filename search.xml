@@ -11,4 +11,15 @@
         <tag>test</tag>
       </tags>
   </entry>
+  <entry>
+    <title><![CDATA[浙大玉泉Ubuntu14.04/16.04有线网VPN配置]]></title>
+    <url>%2F2017%2F06%2F06%2F2017-06-06-Ubuntu_VPN%2F</url>
+    <content type="text"><![CDATA[摘要浙大网络连接主要有两步： 设置IP和DNS连接内网 通过VPN连接外网 内网连接 (1) 在终端输入命令ifconfig 查看使用的网卡（作者本人的为eth0） (2) 使用如下命令打开文件配置IP和DNS1sudo gedit /etc/network/interfaces (3) 在打开的文件中输入如下代码（注：寝室联网还需要绑定MAC地址）1234567auto eth0iface eth0 inet statichwaddress ether /你的MAC地址/address /你的ip/netmask 255.255.255.0gateway /你的网关/dns-nameservers 10.10.0.21 (4) 此时如果重启会显示设备未托管，直接修改文件NetworkManager.conf 1234sudo gedit /etc/NetworkManager/NetworkManager.conf将文件中原本的false改为true[ifupdown]managed=true (5) 保存重启后在终端输入ping 10.10.0.21如果返回下图结果则表示内网连接成功 外网连接(1) 外网连接非常简单，需要安装xl2tpd包，在98上有下载地址http://www.cc98.org/dispbbs.asp?boardID=212&amp;ID=4651082&amp;page=1 (2) 安装之前需要先删除原来的xl2tpd包1sudo dpkg --purge xl2tpd (3) 可以直接双击下载下来的包安装，也可以使用命令安装1sudo dpkg -i xl2tpd_1.2.5+zju-1_amd64.deb (4) 安装完后就可以配置用户名和密码上网1sudo vpn-connect -c /用户名后需要加@a/ (5) 网络连接命令1sudo vpn-connect (6) 断开网络连接命令1sudo vpn-connect -d (7) 这样就可以使用有线上外网了 注意：每次软件更新会造成无法使用的情况，此时需要再重新安装，比较麻烦，所以需要设置不更新xl2tpd。在终端输入1sudo echo &quot;xl2tpd hold&quot; | dpkg --set-selections 然后查看不更新的软件包1sudo dpkg --get-selections | grep hold 看到如下结果就表示成功，此时再更新软件也不会造成错误1xl2tpd hold 本文主要参考了以下两个人的博客： http://blog.csdn.net/u013611347/article/details/51824813 http://blog.sina.com.cn/s/blog_9a80e5180101d9yq.html]]></content>
+      <categories>
+        <category>Ubuntu</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
 </search>

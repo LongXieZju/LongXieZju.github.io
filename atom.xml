@@ -38,4 +38,28 @@
     
   </entry>
   
+  <entry>
+    <title>浙大玉泉Ubuntu14.04/16.04有线网VPN配置</title>
+    <link href="http://longxiezju.github.io/2017/06/06/2017-06-06-Ubuntu_VPN/"/>
+    <id>http://longxiezju.github.io/2017/06/06/2017-06-06-Ubuntu_VPN/</id>
+    <published>2017-06-05T16:00:00.000Z</published>
+    <updated>2018-04-15T14:56:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;浙大网络连接主要有两步：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设置IP和DNS连接内网&lt;/li&gt;
+&lt;li&gt;通过VPN连接外网&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Ubuntu" scheme="http://longxiezju.github.io/categories/Ubuntu/"/>
+    
+    
+      <category term="Ubuntu" scheme="http://longxiezju.github.io/tags/Ubuntu/"/>
+    
+  </entry>
+  
 </feed>
