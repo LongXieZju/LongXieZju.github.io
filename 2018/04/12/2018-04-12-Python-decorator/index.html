@@ -107,14 +107,14 @@
 
 
   <meta name="description" content="装饰器由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。123456&amp;gt;&amp;gt;&amp;gt; def now():···     print(&quot;This is a function&quot;)···&amp;gt;&amp;gt;&amp;gt; f = now()&amp;gt;&amp;gt;&amp;gt; f()&apos;This is a function&apos;">
-<meta name="keywords" content="Ubuntu">
+<meta name="keywords" content="Python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python装饰器">
 <meta property="og:url" content="http://longxiezju.github.io/2018/04/12/2018-04-12-Python-decorator/index.html">
 <meta property="og:site_name" content="Long Xie">
 <meta property="og:description" content="装饰器由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。123456&amp;gt;&amp;gt;&amp;gt; def now():···     print(&quot;This is a function&quot;)···&amp;gt;&amp;gt;&amp;gt; f = now()&amp;gt;&amp;gt;&amp;gt; f()&apos;This is a function&apos;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-04-15T15:45:22.000Z">
+<meta property="og:updated_time" content="2018-04-15T16:57:21.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python装饰器">
 <meta name="twitter:description" content="装饰器由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。123456&amp;gt;&amp;gt;&amp;gt; def now():···     print(&quot;This is a function&quot;)···&amp;gt;&amp;gt;&amp;gt; f = now()&amp;gt;&amp;gt;&amp;gt; f()&apos;This is a function&apos;">
@@ -422,7 +422,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Ubuntu/" itemprop="url" rel="index"><span itemprop="name">Ubuntu</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a></span>
 
                 
                 
@@ -478,7 +478,7 @@
 <p>我们来剖析上面的语句，首先执行<code>log(&#39;execute&#39;)</code>，返回的是<code>decorator</code>函数，再调用返回的函数，参数是<code>now</code>函数，返回值最终是<code>wrapper</code>函数。</p>
 <p>以上两种decorator的定义都没有问题，但还差最后一步。因为我们降了函数也是对象，它有<code>__name__</code>等属性，但你去看经过decorator装饰之后的函数，它们的<code>__name__</code>已经从原来的<code>&#39;now&#39;</code>变成了<code>&#39;wrapper&#39;</code>：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>now.__name__</span><br><span class="line"><span class="string">'wrapper'</span></span><br></pre></td></tr></table></figure></p>
 <p>因为返回的那个wrapper()函数名字就是’wrapper’，所以，需要把原始函数的<code>__name__</code>等属性复制到wrapper()函数中，否则，有些依赖函数签名的代码执行就会出错。</p>
-<p>不需要编写<code>wrapper.__name__ = func.__name__</code>这样的代码，见<a href="mailto:`@functools.wraps" target="_blank" rel="noopener">`@functools.wraps</a>`</p>
+<p>不需要编写<code>wrapper.__name__ = func.__name__</code>这样的代码，见<a href="mailto:`@functools.wraps" target="_blank" rel="noopener">`@functools.wraps</a>`。</p>
 
       
     </div>
@@ -497,7 +497,7 @@
       <div>
         <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>Post author: </strong>XL</li>
+    <strong>Post author: </strong>Long Xie</li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
     <a href="http://longxiezju.github.io/2018/04/12/2018-04-12-Python-decorator/" title="Python装饰器">http://longxiezju.github.io/2018/04/12/2018-04-12-Python-decorator/</a>
@@ -513,7 +513,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Ubuntu/" rel="tag"><i class="fa fa-tag"></i> Ubuntu</a>
+            <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
           
         </div>
       
@@ -535,10 +535,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/15/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -616,7 +612,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -631,7 +627,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
