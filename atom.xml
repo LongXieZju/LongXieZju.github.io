@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://longxiezju.github.io/"/>
-  <updated>2018-04-15T14:45:29.000Z</updated>
+  <updated>2018-04-15T15:29:00.000Z</updated>
   <id>http://longxiezju.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://longxiezju.github.io/2018/04/15/hello-world/"/>
     <id>http://longxiezju.github.io/2018/04/15/hello-world/</id>
     <published>2018-04-15T13:43:22.000Z</published>
-    <updated>2018-04-15T14:45:29.000Z</updated>
+    <updated>2018-04-15T15:29:00.000Z</updated>
     
     <summary type="html">
     
@@ -31,10 +31,30 @@
     
     </summary>
     
-      <category term="test" scheme="http://longxiezju.github.io/categories/test/"/>
+      <category term="Ubuntu" scheme="http://longxiezju.github.io/categories/Ubuntu/"/>
     
     
       <category term="test" scheme="http://longxiezju.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python装饰器</title>
+    <link href="http://longxiezju.github.io/2018/04/12/2018-04-12-Python-decorator/"/>
+    <id>http://longxiezju.github.io/2018/04/12/2018-04-12-Python-decorator/</id>
+    <published>2018-04-11T16:00:00.000Z</published>
+    <updated>2018-04-15T15:45:22.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;装饰器&quot;&gt;&lt;a href=&quot;#装饰器&quot; class=&quot;headerlink&quot; title=&quot;装饰器&quot;&gt;&lt;/a&gt;装饰器&lt;/h2&gt;&lt;p&gt;由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;···     print(&lt;span class=&quot;string&quot;&gt;&quot;This is a function&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;···&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;f = now()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;f()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;This is a function&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Ubuntu" scheme="http://longxiezju.github.io/categories/Ubuntu/"/>
+    
+    
+      <category term="Ubuntu" scheme="http://longxiezju.github.io/tags/Ubuntu/"/>
     
   </entry>
   
@@ -43,7 +63,7 @@
     <link href="http://longxiezju.github.io/2017/06/06/2017-06-06-Ubuntu_VPN/"/>
     <id>http://longxiezju.github.io/2017/06/06/2017-06-06-Ubuntu_VPN/</id>
     <published>2017-06-05T16:00:00.000Z</published>
-    <updated>2018-04-15T14:56:00.000Z</updated>
+    <updated>2018-04-15T15:29:02.000Z</updated>
     
     <summary type="html">
     
