@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://longxiezju.github.io/"/>
-  <updated>2018-04-15T20:43:44.000Z</updated>
+  <updated>2018-04-16T15:04:36.000Z</updated>
   <id>http://longxiezju.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何不使用sudo解决Hexo安装时的权限问题</title>
+    <link href="http://longxiezju.github.io/2018/04/16/npm%E2%80%94permission/"/>
+    <id>http://longxiezju.github.io/2018/04/16/npm—permission/</id>
+    <published>2018-04-16T12:04:48.000Z</published>
+    <updated>2018-04-16T15:04:36.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在使用Hexo搭建个人博客时需要先下载安装Node.js，然后才能使用&lt;code&gt;npm install -g hexo-cli&lt;/code&gt;命令安装Hexo，但直接使用该命令会报权限错误(permission denied)：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! Error: EACCES: permission denied, mkdir &amp;apos;/usr/local/lib/node_modules/hexo-cli&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!     at Error (native)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!  &amp;#123; [Error: EACCES: permission denied, mkdir &amp;apos;/usr/local/lib/node_modules/hexo-cli&amp;apos;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   errno: -13,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   code: &amp;apos;EACCES&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   syscall: &amp;apos;mkdir&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   path: &amp;apos;/usr/local/lib/node_modules/hexo-cli&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   fstream_type: &amp;apos;Directory&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   fstream_path: &amp;apos;/usr/local/lib/node_modules/hexo-cli&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   fstream_class: &amp;apos;DirWriter&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!   fstream_stack: &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!    [ &amp;apos;/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!      &amp;apos;/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!      &amp;apos;FSReqWrap.oncomplete (fs.js:82:15)&amp;apos; ] &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! Please try running this command again as root/Administrator.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://longxiezju.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://longxiezju.github.io/tags/Hexo/"/>
+    
+      <category term="npm" scheme="http://longxiezju.github.io/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>Python装饰器</title>
@@ -41,7 +63,7 @@
     <link href="http://longxiezju.github.io/2017/06/06/2017-06-06-Ubuntu_VPN/"/>
     <id>http://longxiezju.github.io/2017/06/06/2017-06-06-Ubuntu_VPN/</id>
     <published>2017-06-05T16:00:00.000Z</published>
-    <updated>2018-04-15T17:06:34.000Z</updated>
+    <updated>2018-04-16T13:45:22.000Z</updated>
     
     <summary type="html">
     

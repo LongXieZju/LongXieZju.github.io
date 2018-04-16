@@ -108,16 +108,18 @@
 
 
 
-  <meta name="description" content="Coding, Travelling, Reading and Enjoying">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Long Xie">
-<meta property="og:url" content="http://longxiezju.github.io/archives/2017/index.html">
+  <meta name="description" content="前言在使用Hexo搭建个人博客时需要先下载安装Node.js，然后才能使用npm install -g hexo-cli命令安装Hexo，但直接使用该命令会报权限错误(permission denied)：12345678910111213141516npm ERR! Error: EACCES: permission denied, mkdir &amp;apos;/usr/local/lib/node">
+<meta name="keywords" content="Hexo,npm">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何不使用sudo解决Hexo安装时的权限问题">
+<meta property="og:url" content="http://longxiezju.github.io/2018/04/16/npm—permission/index.html">
 <meta property="og:site_name" content="Long Xie">
-<meta property="og:description" content="Coding, Travelling, Reading and Enjoying">
+<meta property="og:description" content="前言在使用Hexo搭建个人博客时需要先下载安装Node.js，然后才能使用npm install -g hexo-cli命令安装Hexo，但直接使用该命令会报权限错误(permission denied)：12345678910111213141516npm ERR! Error: EACCES: permission denied, mkdir &amp;apos;/usr/local/lib/node">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-04-16T15:04:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Long Xie">
-<meta name="twitter:description" content="Coding, Travelling, Reading and Enjoying">
+<meta name="twitter:title" content="如何不使用sudo解决Hexo安装时的权限问题">
+<meta name="twitter:description" content="前言在使用Hexo搭建个人博客时需要先下载安装Node.js，然后才能使用npm install -g hexo-cli命令安装Hexo，但直接使用该命令会报权限错误(permission denied)：12345678910111213141516npm ERR! Error: EACCES: permission denied, mkdir &amp;apos;/usr/local/lib/node">
 
 
 
@@ -126,7 +128,7 @@
 
 
 
-  <link rel="canonical" href="http://longxiezju.github.io/archives/2017/"/>
+  <link rel="canonical" href="http://longxiezju.github.io/2018/04/16/npm—permission/"/>
 
 
 
@@ -136,7 +138,7 @@
   };
 </script>
 
-  <title>Archive | Long Xie</title>
+  <title>如何不使用sudo解决Hexo安装时的权限问题 | Long Xie</title>
   
 
 
@@ -192,7 +194,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <a href="https://github.com/LongXieZju" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
@@ -266,7 +268,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
   </li>
@@ -330,106 +332,250 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
 
-      
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        Um..! 3 posts in total. Keep on posting.
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h2 class="archive-year" id="archive-year-2017">2017</h2>
-          </div>
-        
-        
-
-        
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longxiezju.github.io/2018/04/16/npm—permission/">
 
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/06/2017-06-06-Ubuntu_VPN/" itemprop="url">
-              
-                <span itemprop="name">浙大玉泉Ubuntu14.04/16.04有线网VPN配置</span>
-              
-            </a>
-        
-      </h3>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Long Xie">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/taylor_cat.jpeg">
+    </span>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-06T00:00:00+08:00"
-              content="2017-06-06" >
-          06-06
-        </time>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Long Xie">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">如何不使用sudo解决Hexo安装时的权限问题
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+                
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-16T20:04:48+08:00">2018-04-16</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/16/npm—permission/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments:</span> <span class="post-comments-count gitment-comments-count" data-xid="/2018/04/16/npm—permission/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <i class="fa fa-eye"></i> Views <span id="busuanzi_value_page_pv"></span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在使用Hexo搭建个人博客时需要先下载安装Node.js，然后才能使用<code>npm install -g hexo-cli</code>命令安装Hexo，但直接使用该命令会报权限错误(permission denied)：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">npm ERR! Error: EACCES: permission denied, mkdir &apos;/usr/local/lib/node_modules/hexo-cli&apos;</span><br><span class="line">npm ERR!     at Error (native)</span><br><span class="line">npm ERR!  &#123; [Error: EACCES: permission denied, mkdir &apos;/usr/local/lib/node_modules/hexo-cli&apos;]</span><br><span class="line">npm ERR!   errno: -13,</span><br><span class="line">npm ERR!   code: &apos;EACCES&apos;,</span><br><span class="line">npm ERR!   syscall: &apos;mkdir&apos;,</span><br><span class="line">npm ERR!   path: &apos;/usr/local/lib/node_modules/hexo-cli&apos;,</span><br><span class="line">npm ERR!   fstream_type: &apos;Directory&apos;,</span><br><span class="line">npm ERR!   fstream_path: &apos;/usr/local/lib/node_modules/hexo-cli&apos;,</span><br><span class="line">npm ERR!   fstream_class: &apos;DirWriter&apos;,</span><br><span class="line">npm ERR!   fstream_stack: </span><br><span class="line">npm ERR!    [ &apos;/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25&apos;,</span><br><span class="line">npm ERR!      &apos;/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53&apos;,</span><br><span class="line">npm ERR!      &apos;FSReqWrap.oncomplete (fs.js:82:15)&apos; ] &#125;</span><br><span class="line">npm ERR! </span><br><span class="line">npm ERR! Please try running this command again as root/Administrator.</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>从输出可看出，原因是当前用户无权限对文件夹<code>/usr/local/lib</code>进行写操作。许多人此时会在命令前面加<code>sudo</code>来解决，网上搜到的答案也大多是这种，还有一种是使用<code>chown -R</code>命令改变文件夹所有者使当前用户具备权限。这两种方法虽然能解决问题，但<font color="red">不要这么做</font>，使用<code>sudo</code>会允许命令执行任何操作，这么做非常危险，更改除home文件夹外其他文件夹的所有者也会造成潜在问题。所以不要轻易使用<code>sudo</code>，安装任何模块都应该安装在自己的home文件夹下或者自己创建的虚拟环境下。</p>
+<p>下面介绍如何在不使用<code>sudo</code>命令和不更改文件夹所有者的基础上解决安装Hexo时的权限问题，有两种解决方法:</p>
+<blockquote>
+<p>1、使用版本管理工具NVM重新安装npm<br>2、手动更改npm的默认文件夹（不适用于Windows）</p>
+</blockquote>
+<h2 id="使用NVM重新安装npm"><a href="#使用NVM重新安装npm" class="headerlink" title="使用NVM重新安装npm"></a>使用NVM重新安装npm</h2><p>该方法是最好的避免安装权限问题的方法，且不需要重新安装npm或Node.js就可以使用NVM管理，具体做法看<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" rel="noopener">这里</a>，Windows／Mac OS／Linux不同系统都有详细介绍。</p>
+<h2 id="手动更改npm默认文件夹（不适用于Windows）"><a href="#手动更改npm默认文件夹（不适用于Windows）" class="headerlink" title="手动更改npm默认文件夹（不适用于Windows）"></a>手动更改npm默认文件夹（不适用于Windows）</h2><p>首先在用户的根目录下建立一个隐藏的文件夹，用于npm的global安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~/.npm-global</span><br></pre></td></tr></table></figure></p>
+<p>告诉npm使用新的文件夹<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix &apos;~/.npm-global&apos;</span><br></pre></td></tr></table></figure></p>
+<p>新建一个<code>~/.profile</code>文件，并将下面的命令添加进去<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=~/.npm-global/bin:$PATH</span><br></pre></td></tr></table></figure></p>
+<p>然后使用如下命令更新系统变量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.profile</span><br></pre></td></tr></table></figure></p>
+<p>如果不想每次打开Terminal都输入一遍<code>source ~/.profile</code>，可以把该命令添加到<code>.zshrc</code>(我用的zsh，如果用bash则添加到相应的文件)</p>
+<p>最后再运行<code>npm install -g hexo-cli</code>就不会有权限问题了。</p>
+<font size="5">如果本博客解决了您的问题，希望您能点个赞Peace :p</font>
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author: </strong>Long Xie</li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://longxiezju.github.io/2018/04/16/npm—permission/" title="如何不使用sudo解决Hexo安装时的权限问题">http://longxiezju.github.io/2018/04/16/npm—permission/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</li>
+</ul>
+
       </div>
+    
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+          
+            <a href="/tags/npm/" rel="tag"><i class="fa fa-tag"></i> npm</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/12/2018-04-12-Python-decorator/" rel="next" title="Python装饰器">
+                <i class="fa fa-chevron-left"></i> Python装饰器
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+
+  <div>
+      
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">------ END------</div>
+    
+</div>
+      
+  </div>
+
+  
+  
+  
   </article>
 
 
 
+    <div class="post-spread">
       
-
     </div>
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -450,8 +596,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -557,6 +712,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用NVM重新安装npm"><span class="nav-text">使用NVM重新安装npm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#手动更改npm默认文件夹（不适用于Windows）"><span class="nav-text">手动更改npm默认文件夹（不适用于Windows）</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -708,6 +879,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.1.0"></script>
+
+
 
   
 
@@ -754,6 +929,30 @@
       </style>
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname,
+            owner: 'LongXieZju',
+            repo: 'LongXieZju.github.io',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '3026393f4010fc50d126dd5d1951499e70ea226c',
+            
+                client_id: '6be8e9b5af4b552b6960'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 
