@@ -5,9 +5,9 @@
   <subtitle>See the world not as it is, but as it should be.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://longxiezju.github.io/"/>
+  <link href="http://longxiezju.top/"/>
   <updated>2018-04-16T15:07:24.000Z</updated>
-  <id>http://longxiezju.github.io/</id>
+  <id>http://longxiezju.top/</id>
   
   <author>
     <name>Long Xie</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>如何不使用sudo解决Hexo安装时的权限问题</title>
-    <link href="http://longxiezju.github.io/2018/04/16/npm_permission/"/>
-    <id>http://longxiezju.github.io/2018/04/16/npm_permission/</id>
+    <link href="http://longxiezju.top/2018/04/16/npm_permission/"/>
+    <id>http://longxiezju.top/2018/04/16/npm_permission/</id>
     <published>2018-04-16T12:04:48.000Z</published>
     <updated>2018-04-16T15:07:24.000Z</updated>
     
@@ -29,19 +29,19 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://longxiezju.github.io/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://longxiezju.top/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://longxiezju.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://longxiezju.top/tags/Hexo/"/>
     
-      <category term="npm" scheme="http://longxiezju.github.io/tags/npm/"/>
+      <category term="npm" scheme="http://longxiezju.top/tags/npm/"/>
     
   </entry>
   
   <entry>
     <title>Python装饰器</title>
-    <link href="http://longxiezju.github.io/2018/04/12/Python_decorator/"/>
-    <id>http://longxiezju.github.io/2018/04/12/Python_decorator/</id>
+    <link href="http://longxiezju.top/2018/04/12/Python_decorator/"/>
+    <id>http://longxiezju.top/2018/04/12/Python_decorator/</id>
     <published>2018-04-11T16:00:00.000Z</published>
     <updated>2018-04-15T20:43:44.000Z</updated>
     
@@ -51,17 +51,17 @@
     
     </summary>
     
-      <category term="Python" scheme="http://longxiezju.github.io/categories/Python/"/>
+      <category term="Python" scheme="http://longxiezju.top/categories/Python/"/>
     
     
-      <category term="Python" scheme="http://longxiezju.github.io/tags/Python/"/>
+      <category term="Python" scheme="http://longxiezju.top/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>浙大玉泉Ubuntu14.04/16.04有线网VPN配置</title>
-    <link href="http://longxiezju.github.io/2017/06/06/Ubuntu_VPN/"/>
-    <id>http://longxiezju.github.io/2017/06/06/Ubuntu_VPN/</id>
+    <link href="http://longxiezju.top/2017/06/06/Ubuntu_VPN/"/>
+    <id>http://longxiezju.top/2017/06/06/Ubuntu_VPN/</id>
     <published>2017-06-05T16:00:00.000Z</published>
     <updated>2018-04-16T13:45:22.000Z</updated>
     
@@ -75,10 +75,10 @@
     
     </summary>
     
-      <category term="Ubuntu" scheme="http://longxiezju.github.io/categories/Ubuntu/"/>
+      <category term="Ubuntu" scheme="http://longxiezju.top/categories/Ubuntu/"/>
     
     
-      <category term="Ubuntu" scheme="http://longxiezju.github.io/tags/Ubuntu/"/>
+      <category term="Ubuntu" scheme="http://longxiezju.top/tags/Ubuntu/"/>
     
   </entry>
   
