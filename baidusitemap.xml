@@ -4,8 +4,30 @@
 
     
   <url>
-    <loc>http://longxiezju.top/2018/04/16/npm_permission/</loc>
-    <lastmod>2018-04-16T15:07:24.000Z</lastmod>
+    <loc>https://longxiezju.top/2018/05/05/idea-pyspark/</loc>
+    <lastmod>2018-05-05T09:04:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>idea_pyspark</title>
+        <pubTime>2018-05-05T08:31:54.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>PySpark</tag>
+         
+         
+           
+             
+              <breadCrumb title="Spark" url="https://longxiezju.top/categories/Spark/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://longxiezju.top/2018/04/16/npm_permission/</loc>
+    <lastmod>2018-04-17T12:55:21.000Z</lastmod>
     <data>
         <display>
         <title>如何不使用sudo解决Hexo安装时的权限问题</title>
@@ -18,7 +40,7 @@
          
            
              
-              <breadCrumb title="Hexo" url="http://longxiezju.top/categories/Hexo/"/>
+              <breadCrumb title="Hexo" url="https://longxiezju.top/categories/Hexo/"/>
           
         </display>
     </data>
@@ -26,28 +48,8 @@
 
     
   <url>
-    <loc>http://longxiezju.top/2017/06/06/Ubuntu_VPN/</loc>
-    <lastmod>2018-04-16T13:45:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>浙大玉泉Ubuntu14.04/16.04有线网VPN配置</title>
-        <pubTime>2017-06-05T16:00:00.000Z</pubTime>
-        
-        <tag>Ubuntu</tag>
-         
-         
-           
-             
-              <breadCrumb title="Ubuntu" url="http://longxiezju.top/categories/Ubuntu/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://longxiezju.top/2018/04/12/Python_decorator/</loc>
-    <lastmod>2018-04-15T20:43:44.000Z</lastmod>
+    <loc>https://longxiezju.top/2018/04/12/Python_decorator/</loc>
+    <lastmod>2018-04-17T12:55:15.000Z</lastmod>
     <data>
         <display>
         <title>Python装饰器</title>
@@ -58,7 +60,27 @@
          
            
              
-              <breadCrumb title="Python" url="http://longxiezju.top/categories/Python/"/>
+              <breadCrumb title="Python" url="https://longxiezju.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://longxiezju.top/2017/06/06/Ubuntu_VPN/</loc>
+    <lastmod>2018-04-17T12:55:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>浙大玉泉Ubuntu14.04/16.04有线网VPN配置</title>
+        <pubTime>2017-06-05T16:00:00.000Z</pubTime>
+        
+        <tag>Ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ubuntu" url="https://longxiezju.top/categories/Ubuntu/"/>
           
         </display>
     </data>
