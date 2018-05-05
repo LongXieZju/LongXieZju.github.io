@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://longxiezju.top/"/>
-  <updated>2018-05-05T09:04:06.000Z</updated>
+  <updated>2018-04-17T12:55:21.000Z</updated>
   <id>https://longxiezju.top/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>idea_pyspark</title>
-    <link href="https://longxiezju.top/2018/05/05/idea-pyspark/"/>
-    <id>https://longxiezju.top/2018/05/05/idea-pyspark/</id>
-    <published>2018-05-05T08:31:54.000Z</published>
-    <updated>2018-05-05T09:04:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;IntelliJ-IDEA-下配置-PySpark&quot;&gt;&lt;a href=&quot;#IntelliJ-IDEA-下配置-PySpark&quot; class=&quot;headerlink&quot; title=&quot;IntelliJ IDEA 下配置 PySpark&quot;&gt;&lt;/a&gt;IntelliJ
-        
-      
-    
-    </summary>
-    
-      <category term="Spark" scheme="https://longxiezju.top/categories/Spark/"/>
-    
-    
-      <category term="Python" scheme="https://longxiezju.top/tags/Python/"/>
-    
-      <category term="PySpark" scheme="https://longxiezju.top/tags/PySpark/"/>
-    
-  </entry>
   
   <entry>
     <title>如何不使用sudo解决Hexo安装时的权限问题</title>
