@@ -108,18 +108,18 @@
 
 
 
-  <meta name="description" content="装饰器由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。123456&amp;gt;&amp;gt;&amp;gt; def now():···     print(&quot;This is a function&quot;)···&amp;gt;&amp;gt;&amp;gt; f = now()&amp;gt;&amp;gt;&amp;gt; f()&apos;This is a function&apos;">
-<meta name="keywords" content="Python">
+  <meta name="description" content="前言IntelliJ IDEA通常用于Java开发，PyCharm更适合Python。但如果你已经安装了IDEA不想再安装其他IDE，或者你公司规定使用IDEA，那么这篇文章适合你。 由于工作原因需要使用PySpark，而网上的教程大多是Scala+Spark，所以在这里记录下我的配置步骤方便以后再次配置。 配置步骤可概括为：   安装JDK 安装PySpark 配置IDEA   安装JDK在">
+<meta name="keywords" content="Python,PySpark">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python装饰器">
-<meta property="og:url" content="https://longxiezju.top/2018/04/12/Python_decorator/index.html">
+<meta property="og:title" content="IntelliJ IDEA 下配置 PySpark">
+<meta property="og:url" content="https://longxiezju.top/2018/05/05/idea-pyspark/index.html">
 <meta property="og:site_name" content="Long Xie">
-<meta property="og:description" content="装饰器由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。123456&amp;gt;&amp;gt;&amp;gt; def now():···     print(&quot;This is a function&quot;)···&amp;gt;&amp;gt;&amp;gt; f = now()&amp;gt;&amp;gt;&amp;gt; f()&apos;This is a function&apos;">
+<meta property="og:description" content="前言IntelliJ IDEA通常用于Java开发，PyCharm更适合Python。但如果你已经安装了IDEA不想再安装其他IDE，或者你公司规定使用IDEA，那么这篇文章适合你。 由于工作原因需要使用PySpark，而网上的教程大多是Scala+Spark，所以在这里记录下我的配置步骤方便以后再次配置。 配置步骤可概括为：   安装JDK 安装PySpark 配置IDEA   安装JDK在">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-04-17T12:55:15.000Z">
+<meta property="og:updated_time" content="2018-05-05T09:09:34.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python装饰器">
-<meta name="twitter:description" content="装饰器由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。123456&amp;gt;&amp;gt;&amp;gt; def now():···     print(&quot;This is a function&quot;)···&amp;gt;&amp;gt;&amp;gt; f = now()&amp;gt;&amp;gt;&amp;gt; f()&apos;This is a function&apos;">
+<meta name="twitter:title" content="IntelliJ IDEA 下配置 PySpark">
+<meta name="twitter:description" content="前言IntelliJ IDEA通常用于Java开发，PyCharm更适合Python。但如果你已经安装了IDEA不想再安装其他IDE，或者你公司规定使用IDEA，那么这篇文章适合你。 由于工作原因需要使用PySpark，而网上的教程大多是Scala+Spark，所以在这里记录下我的配置步骤方便以后再次配置。 配置步骤可概括为：   安装JDK 安装PySpark 配置IDEA   安装JDK在">
 
 
 
@@ -128,7 +128,7 @@
 
 
 
-  <link rel="canonical" href="https://longxiezju.top/2018/04/12/Python_decorator/"/>
+  <link rel="canonical" href="https://longxiezju.top/2018/05/05/idea-pyspark/"/>
 
 
 
@@ -138,7 +138,7 @@
   };
 </script>
 
-  <title>Python装饰器 | Long Xie</title>
+  <title>IntelliJ IDEA 下配置 PySpark | Long Xie</title>
   
 
 
@@ -362,7 +362,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://longxiezju.top/2018/04/12/Python_decorator/">
+    <link itemprop="mainEntityOfPage" href="https://longxiezju.top/2018/05/05/idea-pyspark/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Long Xie">
@@ -379,7 +379,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Python装饰器
+          <h2 class="post-title" itemprop="name headline">IntelliJ IDEA 下配置 PySpark
               
             
           </h2>
@@ -398,7 +398,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-12T00:00:00+08:00">2018-04-12</time>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-05T16:31:54+08:00">2018-05-05</time>
             
 
             
@@ -419,7 +419,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Spark/" itemprop="url" rel="index"><span itemprop="name">Spark</span></a></span>
 
                 
                 
@@ -434,8 +434,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/04/12/Python_decorator/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments:</span> <span class="post-comments-count gitment-comments-count" data-xid="/2018/04/12/Python_decorator/" itemprop="commentsCount"></span>
+                <a href="/2018/05/05/idea-pyspark/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments:</span> <span class="post-comments-count gitment-comments-count" data-xid="/2018/05/05/idea-pyspark/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -468,25 +468,18 @@
       
 
       
-        <h2 id="装饰器"><a href="#装饰器" class="headerlink" title="装饰器"></a>装饰器</h2><p>由于函数也是个对象，而且函数变量也可以赋值给变量，所以通过变量也能够调用该函数。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></span><br><span class="line">···     print(<span class="string">"This is a function"</span>)</span><br><span class="line">···</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f = now()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f()</span><br><span class="line"><span class="string">'This is a function'</span></span><br></pre></td></tr></table></figure></p>
-<a id="more"></a>
-<p>函数对象有一个<strong>name</strong>属性，可以拿到函数的名字<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>now.__name__</span><br><span class="line"><span class="string">'now'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f.__name__</span><br><span class="line"><span class="string">'now'</span></span><br></pre></td></tr></table></figure></p>
-<p>现在，假设我们要增强<code>now()</code>函数的功能，比如，在函数调用前后自动打印日志，但又不希望修改<code>now()</code>函数的定义，这种在代码运行期间动态增加功能的方式，称之为“装饰器”（Decorator）。</p>
-<p>本质上，decorator就是一个返回函数的高阶函数。所以，我们要定义一个能打印日志的decorator，可以定义如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(func)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></span><br><span class="line">        print(<span class="string">'call %s():'</span> % func.__name__)</span><br><span class="line">        <span class="keyword">return</span> func(*args, **kw)</span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br></pre></td></tr></table></figure></p>
-<p>观察上面的<code>log</code>，因为它是一个decorator，所以接受一个函数作为参数，并返回一个函数。我们要借助Python的@语法，把decorator置于函数的定义处：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@log</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">"This is a function"</span>)</span><br></pre></td></tr></table></figure></p>
-<p>调用<code>now()</code>函数，不仅会运行<code>now()</code>函数本身，还会在运行<code>now()</code>函数前打印一行日志：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>now()</span><br><span class="line">call now():</span><br><span class="line"><span class="string">'This is a function'</span></span><br></pre></td></tr></table></figure></p>
-<p>把<code>@log</code>放到<code>now()</code>函数的定义处，相当于执行了语句：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">now = log(now)</span><br></pre></td></tr></table></figure></p>
-<p>由于<code>log()</code>是一个decorator，返回一个函数，所以，原来的<code>now()</code>函数仍然存在，只是现在同名的now变量指向了新的函数，即在<code>log()</code>函数中返回的<code>wrapper()</code>函数。</p>
-<p><code>wrapper()</code>函数的参数法定义是<code>(*args, **kw)</code>，因此，<code>wrapper()</code>函数可以接受任意参数的调用。在<code>wrapper()</code>函数内，首先打印日志，再紧接着调用原始函数。</p>
-<p>如果decorator本身需要传入参数，那就需要编写一个返回decorator的高阶函数，下出来会更复杂。比如，要自定义log的文本：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(text)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">decorator</span><span class="params">(func)</span>:</span></span><br><span class="line">        <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></span><br><span class="line">            print(<span class="string">'%s %s():'</span> % (text, func.__name__))</span><br><span class="line">            <span class="keyword">return</span> func(*args, **kw)</span><br><span class="line">        <span class="keyword">return</span> wrapper</span><br><span class="line">    <span class="keyword">return</span> decorator</span><br></pre></td></tr></table></figure></p>
-<p>这个3层嵌套的decorator用法如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@log('execute')</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">"This is a function"</span>)</span><br></pre></td></tr></table></figure></p>
-<p>执行结果如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>now()</span><br><span class="line">excute now():</span><br><span class="line"><span class="string">'This is a function'</span></span><br></pre></td></tr></table></figure></p>
-<p>和两层嵌套的decorator相比，3层嵌套的效果是这样的：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>now = log(<span class="string">'execute'</span>)(now)</span><br></pre></td></tr></table></figure></p>
-<p>我们来剖析上面的语句，首先执行<code>log(&#39;execute&#39;)</code>，返回的是<code>decorator</code>函数，再调用返回的函数，参数是<code>now</code>函数，返回值最终是<code>wrapper</code>函数。</p>
-<p>以上两种decorator的定义都没有问题，但还差最后一步。因为我们降了函数也是对象，它有<code>__name__</code>等属性，但你去看经过decorator装饰之后的函数，它们的<code>__name__</code>已经从原来的<code>&#39;now&#39;</code>变成了<code>&#39;wrapper&#39;</code>：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>now.__name__</span><br><span class="line"><span class="string">'wrapper'</span></span><br></pre></td></tr></table></figure></p>
-<p>因为返回的那个wrapper()函数名字就是’wrapper’，所以，需要把原始函数的<code>__name__</code>等属性复制到wrapper()函数中，否则，有些依赖函数签名的代码执行就会出错。</p>
-<p>不需要编写<code>wrapper.__name__ = func.__name__</code>这样的代码，见<a href="mailto:`@functools.wraps" target="_blank" rel="noopener">`@functools.wraps</a>`。</p>
-
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>IntelliJ IDEA通常用于Java开发，PyCharm更适合Python。但如果你已经安装了IDEA不想再安装其他IDE，或者你公司规定使用IDEA，那么这篇文章适合你。</p>
+<p>由于工作原因需要使用PySpark，而网上的教程大多是Scala+Spark，所以在这里记录下我的配置步骤方便以后再次配置。</p>
+<p>配置步骤可概括为：</p>
+<blockquote>
+<ol>
+<li>安装JDK</li>
+<li>安装PySpark</li>
+<li>配置IDEA</li>
+</ol>
+</blockquote>
+<h3 id="安装JDK"><a href="#安装JDK" class="headerlink" title="安装JDK"></a>安装JDK</h3><p>在上下载相应版本的JDK然后安装</p>
+<h3 id="安装PySpark"><a href="#安装PySpark" class="headerlink" title="安装PySpark"></a>安装PySpark</h3>
       
     </div>
 
@@ -507,7 +500,7 @@
     <strong>Post author: </strong>Long Xie</li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="https://longxiezju.top/2018/04/12/Python_decorator/" title="Python装饰器">https://longxiezju.top/2018/04/12/Python_decorator/</a>
+    <a href="https://longxiezju.top/2018/05/05/idea-pyspark/" title="IntelliJ IDEA 下配置 PySpark">https://longxiezju.top/2018/05/05/idea-pyspark/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</li>
@@ -522,6 +515,8 @@
           
             <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
           
+            <a href="/tags/PySpark/" rel="tag"><i class="fa fa-tag"></i> PySpark</a>
+          
         </div>
       
 
@@ -533,8 +528,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/06/06/Ubuntu_VPN/" rel="next" title="浙大玉泉Ubuntu14.04/16.04有线网VPN配置">
-                <i class="fa fa-chevron-left"></i> 浙大玉泉Ubuntu14.04/16.04有线网VPN配置
+              <a href="/2018/04/16/npm_permission/" rel="next" title="如何不使用sudo解决Hexo安装时的权限问题">
+                <i class="fa fa-chevron-left"></i> 如何不使用sudo解决Hexo安装时的权限问题
               </a>
             
           </div>
@@ -542,10 +537,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/16/npm_permission/" rel="prev" title="如何不使用sudo解决Hexo安装时的权限问题">
-                如何不使用sudo解决Hexo安装时的权限问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -742,7 +733,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#装饰器"><span class="nav-text">装饰器</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装JDK"><span class="nav-text">安装JDK</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装PySpark"><span class="nav-text">安装PySpark</span></a></li></ol></li></ol></div>
             
 
           </div>
