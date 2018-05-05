@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[IntelliJ IDEA 下配置 PySpark]]></title>
     <url>%2F2018%2F05%2F05%2Fidea-pyspark%2F</url>
-    <content type="text"><![CDATA[前言IntelliJ IDEA通常用于Java开发，PyCharm更适合Python。但如果你已经安装了IDEA不想再安装其他IDE，或者你公司规定使用IDEA，那么这篇文章适合你。 由于工作原因需要使用PySpark，而网上的教程大多是Scala+Spark，所以在这里记录下我的配置步骤方便以后再次配置。 配置步骤可概括为： 安装JDK 安装PySpark 配置IDEA 安装JDK在上下载相应版本的JDK然后安装 安装PySpark]]></content>
+    <content type="text"><![CDATA[前言IntelliJ IDEA通常用于Java开发，PyCharm更适合Python。但如果你已经安装了IDEA不想再安装其他IDE，或者你公司规定使用IDEA，那么这篇文章适合你。 由于工作原因需要使用PySpark，而网上的教程大多是Scala+Spark，所以在这里记录下我的配置步骤方便以后再次配置。 配置步骤可概括为： 安装JDK 安装PySpark 配置IDEA 安装JDK在Oracle上下载相应版本的JDK然后安装，如果已经安装过JDK可跳过此步骤。 安装PySparkPySpark的安装可参考官方网站。推荐使用pip安装，安装完成后在终端直接输入pyspark便可启动Spark Shell，但直接用pip install pyspark安装下载速度非常慢，可以让pip使用国内的镜像以提升下载速度。 我使用的是清华的源，下载速度可以得到质的提升。1pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyspark 安装完后在终端输入pyspark，如果得到如下图所示的输出则说明安装成功： 配置IDEAIDEA的安装不再说明，直接去官网下载安装即可。]]></content>
       <categories>
         <category>Spark</category>
       </categories>
