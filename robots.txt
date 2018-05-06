@@ -11,4 +11,4 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://longxiezju.github.io/sitemap.xml
+Sitemap: http://longxiezju.top/sitemap.xml
